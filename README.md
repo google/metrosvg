@@ -23,7 +23,7 @@ Paths and Basic Shapes | Feature complete.
 Coordinate Systems and Transformations | Feature complete.
 Gradients | Near feature complete.
 Fill and Stroke Properties | Near feature complete.
-Document Structure | Only <svg> and <g> are implemented.
+Document Structure | Only &lt;svg&gt; and &lt;g&gt; are implemented.
 Styling (CSS) | An experimental implementation of class selector is available.
 Clipping, Masking, Patterns, Markers, Length Units | Not implemented.
 Text, Fonts, Filter Effects | Not implemented. Recommended to use other options.
