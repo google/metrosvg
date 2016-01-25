@@ -1,0 +1,22 @@
+<svg id="svg-root" width="480" height="360"
+  viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="test-body-content">
+    <path d="M120,120 h25 a25,25 0 1,0 -25,25 z" fill="red" stroke="lime"/>
+    <path d="M120,120 h25 a25,25 0 10 -25,25z" fill="lime"/>
+    <path d="M200,120 h-25 a25,25 0 1,1 25,25 z" fill="red" stroke="lime"/>
+    <path d="M200,120 h-25 a25,25 0 1125,25 z" fill="lime"/>
+    <path d="M280,120 h25 a25,25 0 1,0 -25,25 z" fill="lime" stroke="lime"/>
+    <path d="M280,120 h25 a25,25 0 6 0 -25,25 z" fill="red"/>
+    <path d="M360,120 h-25 a25,25 0 1,1 25,25 z" fill="lime" stroke="lime"/>
+    <path d="M360,120 h-25 a25,25 0 1 -1 25,25 z" fill="red"/>
+    <path d="M120,200 h25 a25,25 0 1,1 -25,-25 z" fill="red" stroke="lime"/>
+    <path d="M120,200 h25 a25,25 0 1 1-25,-25 z" fill="lime"/>
+    <path d="M200,200 h-25 a25,25 0 1,0 25,-25 z" fill="lime" stroke="lime"/>
+    <path d="M200,200 h-25 a25,2501 025,-25 z" fill="red"/>
+    <path d="M280,200 h25 a25,25 0 1,1 -25,-25 z" fill="lime" stroke="lime"/>
+    <path d="M280,200 h25 a25 25 0 1 7 -25 -25 z" fill="red"/>
+    <path d="M360,200 h-25 a25,25 0 1,0 25,-25 z" fill="lime" stroke="lime"/>
+    <path d="M360,200 h-25 a25,25 0 -1 0 25,-25 z" fill="red"/>
+  </g>
+</svg>

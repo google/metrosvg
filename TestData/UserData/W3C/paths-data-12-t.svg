@@ -1,0 +1,18 @@
+<svg version="1.1" baseProfile="tiny"
+  width="480" height="360" viewBox="0 0 480 360"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path fill="none" stroke="black" stroke-width="3" d="M  100 100    C  100 20   200 20   200 100   S   300 180   300 100"/>
+    <rect x="100" y="100" width="4" height="4" fill="blue" stroke="none"/>
+    <rect x="200" y="100" width="4" height="4" fill="blue" stroke="none"/>
+    <rect x="300" y="100" width="4" height="4" fill="blue" stroke="none"/>
+    <path fill="none" stroke="black" stroke-width="3" d="M  100 250    S  200 200   200 250     300 300   300 250"/>
+    <rect x="100" y="250" width="4" height="4" fill="blue" stroke="none"/>
+    <rect x="200" y="200" width="4" height="4" fill="blue" stroke="none"/>
+    <rect x="200" y="250" width="4" height="4" fill="blue" stroke="none"/>
+    <rect x="200" y="300" width="4" height="4" fill="blue" stroke="none"/>
+    <rect x="300" y="300" width="4" height="4" fill="blue" stroke="none"/>
+    <rect x="300" y="250" width="4" height="4" fill="blue" stroke="none"/>
+  </g>
+  <rect id="test-frame" x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+</svg>

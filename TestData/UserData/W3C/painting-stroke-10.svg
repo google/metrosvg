@@ -1,0 +1,23 @@
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+    Tests the behavior of the linecap attribute for 0-length lines.
+    round -> Should produce a circle.
+    square -> Should produce a square.
+    butt -> Should not draw.
+
+    The result of drawing this should be two blue circles
+    on the left, and two blue squares on the right.
+    There should be no red in the output.
+  -->
+  <g stroke-width='50' stroke='blue' fill='none'>
+    <path d='M190,170 L190,170' stroke-linecap='round'/>
+    <path d='M290,170 L290,170' stroke-linecap='square'/>
+    <path d='M390,170 L390,170' stroke-linecap='butt' stroke='red'/>
+
+    <path d='M190,240 c0,0 0,0 0,0' stroke-linecap='round'/>
+    <path d='M290,240 c0,0 0,0 0,0' stroke-linecap='square'/>
+    <path d='M390,240 c0,0 0,0 0,0' stroke-linecap='butt' stroke='red'/>
+  </g>
+  <rect id="test-frame" x="1" y="1" width="478" height="358" fill="none" stroke="#000"/>
+</svg>

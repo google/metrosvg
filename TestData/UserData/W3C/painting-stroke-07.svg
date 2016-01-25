@@ -1,0 +1,20 @@
+<svg version="1.1" width="480" height="480" viewBox="0 0 480 480"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+  Simple test inspired by:
+  http://www.w3.org/Graphics/SVG/Test/20061213/htmlObjectHarness/full-painting-stroke-07-t.html
+  There should be 6 sideways V shapes.
+  For the top 2, the right side should have an extreme sharp point.
+  For the bottom 4, the right side should be cut off.
+  This is specifically to test the implementation of the stroke-miterlimit
+  attribute.
+  -->
+  <g transform="translate(60, 30)">
+    <path stroke="black" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="20" fill="none" d="M  20 20   L  200 30  L  20 40"/>
+    <path stroke="black" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="18.1" fill="none" d="M  20 50   L  200 60  L  20 70"/>
+    <path stroke="black" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="17.9" fill="none" d="M  20 80   L  200 90  L  20 100"/>
+    <path stroke="black" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="17" fill="none" d="M  20 110   L  200 120  L  20 130"/>
+    <path stroke="black" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="4" fill="none" d="M  20 140   L  200 150  L  20 160"/>
+    <path stroke="black" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="1" fill="none" d="M  20 170   L  200 180  L  20 190"/>
+  </g>
+</svg>

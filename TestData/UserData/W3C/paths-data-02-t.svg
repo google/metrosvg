@@ -1,0 +1,13 @@
+<svg version="1.1" width="480" height="480" viewBox="0 0 480 480"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+  Simple test inspired by:
+  http://www.w3.org/Graphics/SVG/Test/20030813/htmlframe/full-paths-data-02-t.html
+  -->
+  <path id="Bez_MQMqz" fill="none" stroke="#0000FF" stroke-width="3" d="M  15   20      Q  30  120    130   30      M 180   80      q  -75 -100    -163  -60z"/>
+  <path id="Bez_fill_MQzmqz" fill="#FFFF00" stroke="#0000CF" d="M372 130Q272 50 422 10zm70 0q50-150-80-90z"/>
+  <path id="Tri_MQTQz" fill="#00C000" stroke="#000000" d="M208 168Q258 268 308 168T258 118Q128 88 208 168z"/>
+  <path id="Inv_V_MCcZ" fill="#00CF00" stroke="none" d="   M   60 100      Q  -40 150      60 200      Q  160 150      60 100       z  "/>
+  <path id="Sin_Mqttttz" fill="none" stroke="#40DD20" d="M240 296q25-100 47 0t47 0t47 0t47 0t47 0z"/>
+  <path id="Dbl_spd_MCcZ" fill="#0000C0" stroke="#00CF00" stroke-width="2" d="M172 193q-100 50 0 50Q72 243 172 293q100 -50 0 -50Q272 243 172 193z"/>
+</svg>

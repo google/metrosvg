@@ -1,0 +1,12 @@
+<svg version="1.1" width="480" height="480" viewBox="0 0 480 480"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+  Simple test inspired by:
+  http://www.w3.org/Graphics/SVG/Test/20061213/htmlObjectHarness/full-painting-stroke-01-t.html
+  Upper box should be blue with no border.  Lower box should be blue with a
+  red border due to using the stroke and stroke-width attributes.
+  -->
+  <rect fill="#0000ff" stroke="none" x="90" y="70" width="300" height="50"/>
+  <rect fill="#0000ff" stroke-width="20" stroke="#ff0000" x="90" y="190" width="300" height="50"/>
+  <rect x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="480" height="360"
+  viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M 200 100 L 200 190" fill="none" stroke="orange" stroke-width="20" stroke-dashoffset="5px" stroke-dasharray="10px 10px 10px" />
+  <path d="M 200 190 L 200 100" fill="none" stroke="black" stroke-width="20" stroke-dashoffset="5px" stroke-dasharray="10px 10px 10px" />
+</svg>

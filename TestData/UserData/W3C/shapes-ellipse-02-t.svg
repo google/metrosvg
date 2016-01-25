@@ -1,0 +1,22 @@
+<svg width="480" height="480" viewBox="0 0 480 480"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+    A simple test inspired by
+    http://www.w3.org/Graphics/SVG/Test/20061213/htmlEmbedHarness/full-shapes-ellipse-02-t.html
+    Testing positioning and defaulting of the ellipse element.
+    This should draw a black-outlined red overal in the middle of the image,
+    and one-quarter of a second such oval cut off at the top left corner.
+  -->
+  <g>
+    <g fill="#ff0000" stroke="#000000">
+      <ellipse rx="100" ry="50"/>
+
+      <ellipse cx="100" cy="150" rx="0" ry="50"/>
+
+      <ellipse cx="200" cy="50" rx="100" ry="0"/>
+
+      <ellipse cx="250" cy="250" rx="100" ry="50"/>
+    </g>
+  </g>
+  <rect id="test-frame" x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+</svg>

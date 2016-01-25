@@ -1,0 +1,22 @@
+<svg width="480" height="480" viewBox="0 0 480 480"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+    A simple test inspired by
+    http://www.w3.org/Graphics/SVG/Test/20061213/htmlEmbedHarness/full-shapes-ellipse-01-t.html
+    Draws variations of the ellipse element.
+    See the above for the graphical appearance expected.
+  -->
+  <g>
+    <ellipse id="ellipse-01" fill="none" stroke="#000000" cx="50" cy="75" rx="30" ry="50"/>
+    <ellipse id="ellipse-02" fill="#008800" cx="160" cy="75" rx="30" ry="50"/>
+
+    <ellipse id="ellipse-03" fill="none" stroke="#000000" cx="270" cy="80" rx="35" ry="35"/>
+    <ellipse id="ellipse-04" fill="#008800" cx="370" cy="80" rx="35" ry="35"/>
+
+    <ellipse id="ellipse-05" fill="none" stroke="#0000FF" stroke-width="8" cx="50" cy="220" rx="30" ry="50"/>
+    <ellipse id="ellipse-06" fill="#00FF00" stroke="#0000FF" stroke-width="8" cx="160" cy="220" rx="30" ry="50"/>
+
+    <ellipse id="ellipse-07" fill="#00FF00" stroke="#0000FF" stroke-width="8" cx="330" cy="220" rx="70" ry="40"/>
+  </g>
+  <rect id="test-frame" x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+</svg>

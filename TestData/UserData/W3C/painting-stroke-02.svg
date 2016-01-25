@@ -1,0 +1,11 @@
+<svg version="1.1" width="480" height="480" viewBox="0 0 480 480"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+  Simple test inspired by:
+  http://www.w3.org/Graphics/SVG/Test/20061213/htmlObjectHarness/full-painting-stroke-02-t.html
+  Upper box should have square corners, lower box should have round corners
+  due to using the stroke-linejoin attribute.
+  -->
+  <rect id="stroke-01" fill="none" stroke="#0000ff" stroke-width="20" x="90" y="70" width="300" height="50"/>
+  <rect id="stroke-02" fill="none" stroke="#0000ff" stroke-width="20" stroke-linejoin="round" x="90" y="190" width="300" height="50"/>
+</svg>

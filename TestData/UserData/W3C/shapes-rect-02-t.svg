@@ -1,0 +1,15 @@
+<svg version="1.1" baseProfile="tiny"
+  width="480" height="360" viewBox="0 0 480 360"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <g fill="green" stroke="#000000">
+      <rect y="46" width="50" height="80"/>
+      <rect x="130" width="50" height="80"/>
+      <rect x="250" y="46" height="80" width="0"/>
+      <rect x="350" y="46" height="0" width="50"/>
+      <rect x="30" y="196" width="50" height="80" ry="20"/>
+      <rect x="130" y="196" width="50" height="80" rx="20"/>
+    </g>
+  </g>
+  <rect id="test-frame" x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+</svg>

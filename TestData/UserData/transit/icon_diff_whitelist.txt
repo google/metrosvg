@@ -1,0 +1,41 @@
+# This file contains allowed diffs in the icon_diff_test.sh tests.
+
+# Allowed diffs between the maps/transit/icons and gstatic SVG folders.
+
+Only in .*googledata/maps/transit/icons/.*: au-sydney-bus_light.svg
+Only in .*googledata/maps/transit/icons/.*: au-sydney-ferry_light.svg
+Only in .*googledata/maps/transit/icons/.*: au-sydney-lightrail_light.svg
+Only in .*googledata/maps/transit/icons/.*: au-sydney-rail_light.svg
+Only in .*googledata/maps/transit/icons/.*: hu-budapest-commuter_light.svg
+Only in .*googledata/maps/transit/icons/.*: hu-budapest-ferry_light.svg
+Only in .*googledata/maps/transit/icons/.*: hu-budapest-metro_light.svg
+Only in .*googledata/maps/transit/icons/.*uk-easter-eggs.*: boat_light.svg
+Only in .*googledata/maps/transit/icons/.*uk-easter-eggs.*: carriage_light.svg
+Only in .*googledata/maps/transit/icons/.*uk-easter-eggs.*: dragon_light.svg
+Only in .*googledata/maps/transit/icons/.*uk-easter-eggs.*: nessie_light.svg
+Only in .*googledata/maps/transit/icons/.*uk-easter-eggs.*: umbrella_light.svg
+Only in .*googledata/html/external_content/maps_gstatic_com/mapfiles/transit/iw2/.*: limo
+
+# Regular expressions for PNG/GIF icons which do not have an SVG equivalent.
+# Ideally nothing should be added here.
+iw2?/[2567]: Missing SVG: ch-hk-metro
+iw2?/[2567]: Missing SVG: de-commuter
+iw2?/[2567]: Missing SVG: es-fgc
+iw2?/[2567]: Missing SVG: es-metrovalencia
+iw2?/[2567]: Missing SVG: fr-paris-commuter
+iw2?/[2567]: Missing SVG: us-boston-metro
+iw2?/7: Missing SVG: gbus
+
+# Regular expressions for SVG icons which do not have an PNG or GIF equivalent.
+# Ideally nothing should be added here.
+
+iw2?/[25678abcdefgh]: Missing copy: at-s-bahn
+iw2?/[25678abcdefgh]: Missing copy: dk-cph-metro
+iw2?/[25678abcdefgh]: Missing copy: dk-cph-s
+iw2?/[25678abcdefgh]: Missing copy: j
+iw2?/[25678abcdefgh]: Missing copy: mrt
+iw2?/[25678abcdefgh]: Missing copy: ru-samara-metro-alt
+iw2?/[25678abcdefgh]: Missing copy: ua-kharkiv-metro
+iw2?/[25678abcdefgh]: Missing copy: ua-kyiv-alt
+iw2?/[25678abcdefgh]: Missing copy: us-washington-metro
+iw/7: Missing copy: walk_rtl

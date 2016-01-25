@@ -1,0 +1,14 @@
+<svg width="480" height="360" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+    A simple test inspired by
+    http://www.w3.org/Graphics/SVG/Test/20110816/harness/htmlSVGWeb/shapes-line-02-f.html
+    This should draw two thick black lines, one horizontal and one slanting
+    down.
+  -->
+  <g>
+    <line x1="100" y1="100" x2="300" y2="100" stroke-width="10" stroke="#000000" fill="#ff0000" />
+    <line x1="100" y1="100" x2="300" y2="100" stroke-width="10" stroke="#000000" fill="#ff0000" transform="rotate(15)"/>
+  </g>
+  <rect id="test-frame" x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+</svg>

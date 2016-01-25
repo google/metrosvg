@@ -1,0 +1,14 @@
+<svg version="1.1" width="480" height="360" viewBox="0 0 480 360"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+  Simple test inspired by:
+  http://www.w3.org/Graphics/SVG/Test/20061213/htmlObjectHarness/full-painting-stroke-03-t.html
+  Upper stroke should be a sideways V shape with round ends due to the
+  stroke-linecap attribute.
+  Lower stroke should be a sideways V shape with butt (square) ends.
+  In both strokes, the bottom of the V should be butt (i.e., have sharp
+  corners).
+  -->
+  <path fill="none" stroke="blue" stroke-width="30" stroke-linecap="round" d="M 160 70 l 200 20 l -200 20 "/>
+  <path fill="none" stroke="blue" stroke-width="30" stroke-linejoin="miter" stroke-miterlimit="1" d="M 160 190 l 200 20 l -200 20"/>
+</svg>

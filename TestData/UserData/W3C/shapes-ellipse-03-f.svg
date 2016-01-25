@@ -1,0 +1,25 @@
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+    A simple test inspired by
+    http://www.w3.org/Graphics/SVG/Test/20110816/harness/htmlSVGWeb/shapes-ellipse-03-f.html
+    Tests ability to reposition the ellipse element.
+    This should draw two black-outlined ovals with crosshairs, one of them
+    slightly rotated.
+  -->
+  <g>
+    <g transform="translate(150,150)">
+        <line x1="0" y1="-100" x2="0" y2="100" stroke="#000000" />
+        <line x1="-100" y1="0" x2="100" y2="0" stroke="#000000" />
+        <ellipse  cx="0" cy="0" rx="80" ry="50" fill="none" stroke="#000000" />
+    </g>
+
+    <g transform="translate(350,150) rotate(-30)">
+        <line x1="0" y1="-100" x2="0" y2="100" stroke="#000000" />
+        <line x1="-100" y1="0" x2="100" y2="0" stroke="#000000" />
+        <ellipse  cx="0" cy="0" rx="80" ry="50" fill="none" stroke="#000000" />
+    </g>
+
+  </g>
+  <rect id="test-frame" x="1" y="1" width="478" height="358" fill="none" stroke="#000000"/>
+</svg>
