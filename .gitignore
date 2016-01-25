@@ -1,0 +1,6 @@
+*~
+.DS_Store
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
+TestData/UserData
+AcceptanceTest/Golden/UserData
