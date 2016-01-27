@@ -29,5 +29,8 @@ Clipping, Masking, Patterns, Markers, Length Units | Not implemented.
 Text, Fonts, Filter Effects | Not implemented. Recommended to use other options.
 Color Profile, Linking, Interactivity, Scripting, Animation | Out of scope.
 
+##Discussion Forum
+https://groups.google.com/forum/#!forum/metrosvg
+
 ##Disclaimer
 MetroSVG is not an official Google product.
